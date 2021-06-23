@@ -11,7 +11,7 @@ import 'tailwindcss/tailwind.css'
 
         componentDidMount(){
             console.log("hi")
-            axios.get(`https://dazzling-leakey-gokulkarthik.netlify.app/api/jobs`)
+            axios.get(`https://dazzling-leakey-gokul.netlify.app/api/jobs`)
       .then(res => {
         //console.log(res.data.jobs)
         const newJobCount = res.data.jobs.reduce((sum,element) =>{
